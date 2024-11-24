@@ -15,27 +15,27 @@
 
 test_all_auth.py    Сценарий полного тестирования аторизации с паролем.
                     
-pytest ./test/test_all_auth.py
+    pytest ./test/test_all_auth.py
 
 test_auth.py        Тестирование доступа к странице авторизации с главной RK и по прямой ссылке.
                     
-pytest ./test/test_auth.py
+    pytest ./test/test_auth.py
 
 test_email_auth.py  Тестирование типа аторизации почта + проль, автоматическая сменна типа авторизации с почта на другие типы.
                     Тестирование поля ввода на предупреждение о неверном формате Электронной почты.
                     
-pytest ./test/test_email_auth.py
+    pytest ./test/test_email_auth.py
 
 test_login_auth.py  Тестирование типа аторизации логин + проль, автоматическая сменна типа авторизации с логин на другие типы.
                     
-pytest ./test/test_login_auth.py
+    pytest ./test/test_login_auth.py
 
 test_ls_auth.py     Тестирование типа аторизации лс + проль, автоматическая сменна типа авторизации с лс на другие типы.
                     Тестирование поля ввода на предупреждения о неверном формате ЛС
                     
-pytest ./test/test_ls_auth.py
+    pytest ./test/test_ls_auth.py
 
 test_phone_auth.py  Тестирование типа аторизации лс + проль, автоматическая сменна типа авторизации с телефон на другие типы.
                     Тестирование поля ввода на предупреждения о неверном формате Номера
                     
-pytest ./test/test_phone_auth.py
+    pytest ./test/test_phone_auth.py
